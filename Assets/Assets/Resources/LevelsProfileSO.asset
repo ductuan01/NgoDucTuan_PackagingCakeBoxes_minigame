@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1eb4d491cdb2eb4f9cde133f108bbd7, type: 3}
+  m_Name: LevelsProfileSO
+  m_EditorClassIdentifier: 
+  levelInfos:
+  - levelName: Level_1
+    starAmount: 0
+    cellSize: {x: 60, y: 60}
+    rows: 3
+    columns: 3
+    candysIndex: 
+    cakeIndex: 1
+    giftBoxIndex: 7
+  - levelName: Level_2
+    starAmount: 0
+    cellSize: {x: 60, y: 60}
+    rows: 3
+    columns: 3
+    candysIndex: 0200000006000000
+    cakeIndex: 3
+    giftBoxIndex: 5
+  - levelName: Level_3
+    starAmount: 0
+    cellSize: {x: 60, y: 60}
+    rows: 3
+    columns: 3
+    candysIndex: 000000000500000006000000
+    cakeIndex: 7
+    giftBoxIndex: 1
+  - levelName: Level_4
+    starAmount: 0
+    cellSize: {x: 60, y: 60}
+    rows: 4
+    columns: 3
+    candysIndex: 0000000007000000
+    cakeIndex: 6
+    giftBoxIndex: 8
+  - levelName: Level_5
+    starAmount: 0
+    cellSize: {x: 60, y: 60}
+    rows: 4
+    columns: 3
+    candysIndex: 040000000800000009000000
+    cakeIndex: 11
+    giftBoxIndex: 5
+  - levelName: Level_6
+    starAmount: 0
+    cellSize: {x: 60, y: 60}
+    rows: 4
+    columns: 3
+    candysIndex: 010000000600000008000000
+    cakeIndex: 7
+    giftBoxIndex: 3
+  - levelName: Level_7
+    starAmount: 0
+    cellSize: {x: 60, y: 60}
+    rows: 4
+    columns: 3
+    candysIndex: 00000000050000000b000000
+    cakeIndex: 10
+    giftBoxIndex: 8
+  - levelName: Level_8
+    starAmount: 0
+    cellSize: {x: 60, y: 60}
+    rows: 4
+    columns: 3
+    candysIndex: 00000000050000000b000000
+    cakeIndex: 10
+    giftBoxIndex: 8
+  - levelName: Level_9
+    starAmount: 0
+    cellSize: {x: 60, y: 60}
+    rows: 4
+    columns: 3
+    candysIndex: 00000000050000000b000000
+    cakeIndex: 10
+    giftBoxIndex: 8

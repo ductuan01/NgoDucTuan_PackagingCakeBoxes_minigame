@@ -1,0 +1,282 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/Controls.cs
+    - Assets/Controls.cs.meta
+    - Assets/Controls.inputactions
+    - Assets/Controls.inputactions.meta
+    - Assets/Data.meta
+    - Assets/Data/Character.meta
+    - Assets/Data/Character/Cake.cs
+    - Assets/Data/Character/Cake.cs.meta
+    - Assets/Data/Character/Candy.cs
+    - Assets/Data/Character/Candy.cs.meta
+    - Assets/Data/Character/GiftBox.cs
+    - Assets/Data/Character/GiftBox.cs.meta
+    - Assets/Data/Guide.meta
+    - Assets/Data/Guide/GuideManager.cs
+    - Assets/Data/Guide/GuideManager.cs.meta
+    - Assets/Data/Levels.meta
+    - Assets/Data/Levels/LevelInfo.cs
+    - Assets/Data/Levels/LevelInfo.cs.meta
+    - Assets/Data/Levels/LevelManager.cs
+    - Assets/Data/Levels/LevelManager.cs.meta
+    - Assets/Data/Levels/LevelsProfileSO.cs
+    - Assets/Data/Levels/LevelsProfileSO.cs.meta
+    - Assets/Data/MainMenu.meta
+    - Assets/Data/MainMenu/MainManager.cs
+    - Assets/Data/MainMenu/MainManager.cs.meta
+    - Assets/Data/SelectLevel.meta
+    - Assets/Data/SelectLevel/SelectLevelManager.cs
+    - Assets/Data/SelectLevel/SelectLevelManager.cs.meta
+    - Assets/InputManager.cs
+    - Assets/InputManager.cs.meta
+    - Assets/Resources.meta
+    - Assets/Resources/LevelsProfileSO.asset
+    - Assets/Resources/LevelsProfileSO.asset.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/Guide.unity
+    - Assets/Scenes/Guide.unity.meta
+    - Assets/Scenes/Levels.meta
+    - Assets/Scenes/Levels/Level_1.unity
+    - Assets/Scenes/Levels/Level_1.unity.meta
+    - Assets/Scenes/Levels/Level_2.unity
+    - Assets/Scenes/Levels/Level_2.unity.meta
+    - Assets/Scenes/Levels/Level_3.unity
+    - Assets/Scenes/Levels/Level_3.unity.meta
+    - Assets/Scenes/Levels/Level_4.unity
+    - Assets/Scenes/Levels/Level_4.unity.meta
+    - Assets/Scenes/Levels/Level_5.unity
+    - Assets/Scenes/Levels/Level_5.unity.meta
+    - Assets/Scenes/Levels/Level_6.unity
+    - Assets/Scenes/Levels/Level_6.unity.meta
+    - Assets/Scenes/Levels/Level_7.unity
+    - Assets/Scenes/Levels/Level_7.unity.meta
+    - Assets/Scenes/Levels/Level_8.unity
+    - Assets/Scenes/Levels/Level_8.unity.meta
+    - Assets/Scenes/Levels/Level_9.unity
+    - Assets/Scenes/Levels/Level_9.unity.meta
+    - Assets/Scenes/MainMenu.unity
+    - Assets/Scenes/MainMenu.unity.meta
+    - Assets/Scenes/SelectLevel.unity
+    - Assets/Scenes/SelectLevel.unity.meta
+    - Assets/Special.meta
+    - Assets/Special/SecondMonoBehaviour.cs
+    - Assets/Special/SecondMonoBehaviour.cs.meta
+    - Assets/TextMesh Pro.meta
+    - Assets/TextMesh Pro/Documentation.meta
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+    - Assets/TextMesh Pro/Fonts.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+    - Assets/TextMesh Pro/Resources.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+    - Assets/TextMesh Pro/Shaders.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+    - Assets/TextMesh Pro/Sprites.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+    - Assets/Touch.cs
+    - Assets/Touch.cs.meta
+    - Assets/UI.meta
+    - Assets/UI/Buttons.meta
+    - Assets/UI/Buttons/BaseButton.cs
+    - Assets/UI/Buttons/BaseButton.cs.meta
+    - Assets/UI/Buttons/BtnExitGuide.cs
+    - Assets/UI/Buttons/BtnExitGuide.cs.meta
+    - Assets/UI/Buttons/BtnExitSelectLevel.cs
+    - Assets/UI/Buttons/BtnExitSelectLevel.cs.meta
+    - Assets/UI/Buttons/BtnGoHome.cs
+    - Assets/UI/Buttons/BtnGoHome.cs.meta
+    - Assets/UI/Buttons/BtnGuide.cs
+    - Assets/UI/Buttons/BtnGuide.cs.meta
+    - Assets/UI/Buttons/BtnLevel.cs
+    - Assets/UI/Buttons/BtnLevel.cs.meta
+    - Assets/UI/Buttons/BtnNextLevel.cs
+    - Assets/UI/Buttons/BtnNextLevel.cs.meta
+    - Assets/UI/Buttons/BtnPlay.cs
+    - Assets/UI/Buttons/BtnPlay.cs.meta
+    - Assets/UI/Buttons/BtnResetLevel.cs
+    - Assets/UI/Buttons/BtnResetLevel.cs.meta
+    - Assets/UI/Game.meta
+    - Assets/UI/Game/Grid.cs
+    - Assets/UI/Game/Grid.cs.meta
+    - Assets/UI/Game/Movement.cs
+    - Assets/UI/Game/Movement.cs.meta
+    - Assets/UI/UICompleted.meta
+    - Assets/UI/UICompleted/StarLevel.cs
+    - Assets/UI/UICompleted/StarLevel.cs.meta
+    - Assets/UI/UICompleted/UICompleted.cs
+    - Assets/UI/UICompleted/UICompleted.cs.meta
+    - Assets/UI/UIFailed.meta
+    - Assets/UI/UIFailed/UIFailed.cs
+    - Assets/UI/UIFailed/UIFailed.cs.meta
+    - Assets/UI/UITimeCount.meta
+    - Assets/UI/UITimeCount/TimeCount.cs
+    - Assets/UI/UITimeCount/TimeCount.cs.meta
+    - Assets/demo.meta
+    - Assets/demo/Artboard 1.png
+    - Assets/demo/Artboard 1.png.meta
+    - Assets/demo/Artboard 2.png
+    - Assets/demo/Artboard 2.png.meta
+    - Assets/demo/Artboard 3.png
+    - Assets/demo/Artboard 3.png.meta
+    - Assets/demo/Artboard 4.png
+    - Assets/demo/Artboard 4.png.meta
+    - Assets/demo/Artboard 5.png
+    - Assets/demo/Artboard 5.png.meta
+    - Assets/demo/Artboard 6.png
+    - Assets/demo/Artboard 6.png.meta
+    - Assets/filecut.meta
+    - Assets/filecut/bg.meta
+    - Assets/filecut/bg/bg 1.png
+    - Assets/filecut/bg/bg 1.png.meta
+    - Assets/filecut/bg/bg 2.png
+    - Assets/filecut/bg/bg 2.png.meta
+    - Assets/filecut/bt.meta
+    - Assets/filecut/bt/exit.png
+    - Assets/filecut/bt/exit.png.meta
+    - Assets/filecut/bt/guid .png
+    - Assets/filecut/bt/guid .png.meta
+    - Assets/filecut/bt/home .png
+    - Assets/filecut/bt/home .png.meta
+    - Assets/filecut/bt/next Right .png
+    - Assets/filecut/bt/next Right .png.meta
+    - Assets/filecut/bt/next left .png
+    - Assets/filecut/bt/next left .png.meta
+    - Assets/filecut/bt/play .png
+    - Assets/filecut/bt/play .png.meta
+    - Assets/filecut/bt/reset  .png
+    - Assets/filecut/bt/reset  .png.meta
+    - Assets/filecut/character.meta
+    - Assets/filecut/character/cake .png
+    - Assets/filecut/character/cake .png.meta
+    - Assets/filecut/character/candy .png
+    - Assets/filecut/character/candy .png.meta
+    - Assets/filecut/character/frame.png
+    - Assets/filecut/character/frame.png.meta
+    - Assets/filecut/character/gift box.png
+    - Assets/filecut/character/gift box.png.meta
+    - Assets/filecut/logo.meta
+    - Assets/filecut/logo/logo .png
+    - Assets/filecut/logo/logo .png.meta
+    - Assets/filecut/pu.meta
+    - Assets/filecut/pu/completed.png
+    - Assets/filecut/pu/completed.png.meta
+    - Assets/filecut/pu/failed .png
+    - Assets/filecut/pu/failed .png.meta
+    - Assets/filecut/pu/htp .png
+    - Assets/filecut/pu/htp .png.meta
+    - Assets/filecut/pu/level .png
+    - Assets/filecut/pu/level .png.meta
+    - Assets/filecut/pu/lock up.png
+    - Assets/filecut/pu/lock up.png.meta
+    - Assets/filecut/pu/pu time .png
+    - Assets/filecut/pu/pu time .png.meta
+    - Assets/filecut/pu/select level.png
+    - Assets/filecut/pu/select level.png.meta
+    - Assets/filecut/pu/star lose.png
+    - Assets/filecut/pu/star lose.png.meta
+    - Assets/filecut/pu/star win .png
+    - Assets/filecut/pu/star win .png.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
