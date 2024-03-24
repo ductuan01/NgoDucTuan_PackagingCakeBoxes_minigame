@@ -12,7 +12,7 @@ public class LevelInfo
     public int rows = 3;
     public int columns = 3;
 
-    public List<int> candysIndex;
-    public int cakeIndex;
+    public List<int> candyIndexs;
+    public List<int> cakeIndexs;
     public int giftBoxIndex;
 }

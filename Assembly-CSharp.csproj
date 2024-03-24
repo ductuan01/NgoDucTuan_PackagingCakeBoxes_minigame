@@ -70,8 +70,11 @@
     <Compile Include="Assets\Data\Guide\GuideManager.cs" />
     <Compile Include="Assets\UI\UICompleted\UICompleted.cs" />
     <Compile Include="Assets\Data\MainMenu\MainManager.cs" />
+    <Compile Include="Assets\Data\Levels\LevelCtrl.cs" />
+    <Compile Include="Assets\UI\Game\FrameGrid.cs" />
     <Compile Include="Assets\UI\Buttons\BtnResetLevel.cs" />
     <Compile Include="Assets\UI\Buttons\BtnLevel.cs" />
+    <Compile Include="Assets\Data\Levels\StarLevel.cs" />
     <Compile Include="Assets\UI\Buttons\BtnNextLevel.cs" />
     <Compile Include="Assets\Data\Character\GiftBox.cs" />
     <Compile Include="Assets\UI\UIFailed\UIFailed.cs" />
@@ -81,9 +84,6 @@
     <Compile Include="Assets\UI\Buttons\BtnExitGuide.cs" />
     <Compile Include="Assets\Data\Levels\LevelProfileSO.cs" />
     <Compile Include="Assets\UI\Buttons\BtnGuide.cs" />
-    <Compile Include="Assets\Data\Levels\LevelCtrl.cs" />
-    <Compile Include="Assets\Data\Levels\StarLevel.cs" />
-    <Compile Include="Assets\UI\Game\FrameGrid.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

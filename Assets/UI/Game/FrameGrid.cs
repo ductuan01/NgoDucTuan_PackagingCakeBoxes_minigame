@@ -18,14 +18,16 @@ public class FrameGrid : SecondMonoBehaviour
     [SerializeField] private int _columns;
 
     [SerializeField] private Transform _candy;
-    [SerializeField] private List<int> _candysIndex;
+    [SerializeField] private List<int> _candyIndexs;
 
     [SerializeField] private Transform _cake;
-    [SerializeField] private int _cakeIndex;
+    [SerializeField] private List<int> _cakeIndexs;
 
     [SerializeField] private Transform _giftBox;
     [SerializeField] private int _giftBoxIndex;
 
+    [SerializeField] private Transform _holder;
+    private int cakeCount = 0;
 
     public bool _canMove = true;
 
@@ -46,6 +48,7 @@ public class FrameGrid : SecondMonoBehaviour
         this.LoadCandy();
         this.LoadCake();
         this.LoadGiftBox();
+        this.LoadHolder();
         this.LoadCharacterIndex();
     }
     private void LoadLevelsProfile()
@@ -80,6 +83,12 @@ public class FrameGrid : SecondMonoBehaviour
         this._giftBox = GameObject.Find("Character").transform.Find("GiftBox").transform;
         Debug.LogWarning(transform.name + ": LoadGiftBox", gameObject);
     }
+    private void LoadHolder()
+    {
+        if (this._holder != null) return;
+        this._holder = transform.parent.Find("Holder").transform;
+        Debug.LogWarning(transform.name + ": LoadHolder", gameObject);
+    }
 
     private void LoadCharacterIndex()
     {
@@ -91,9 +100,9 @@ public class FrameGrid : SecondMonoBehaviour
                 if (gridLayoutGroup != null) gridLayoutGroup.cellSize = levelInfo.cellSize;
                 this._rows = levelInfo.rows;
                 this._columns = levelInfo.columns;
-                this._cakeIndex = levelInfo.cakeIndex;
+                this._cakeIndexs = levelInfo.cakeIndexs;
                 this._giftBoxIndex = levelInfo.giftBoxIndex;
-                this._candysIndex = levelInfo.candysIndex;
+                this._candyIndexs = levelInfo.candyIndexs;
             }    
         }    
     }
@@ -105,7 +114,7 @@ public class FrameGrid : SecondMonoBehaviour
         {
             if(levelInfo.levelName == SceneManager.GetActiveScene().name)
             {
-                Vector2 WidhtHeight = new Vector2(levelInfo.cellSize.x * levelInfo.rows, levelInfo.cellSize.y * levelInfo.columns);
+                Vector2 WidhtHeight = new Vector2(levelInfo.cellSize.x * levelInfo.columns, levelInfo.cellSize.y * levelInfo.rows);
                 rectTransform.sizeDelta = WidhtHeight;
             }    
         }    
@@ -132,21 +141,24 @@ public class FrameGrid : SecondMonoBehaviour
 
     private void SpawnCandy()
     {
-        foreach(int candyIndex in this._candysIndex)
+        foreach(int candyIndex in this._candyIndexs)
         {
             Transform transform = Instantiate(_candy);
             transform.SetParent(this._frames[candyIndex]);
             transform.position = transform.parent.position;
-            transform.localScale = new Vector3(0.4f, 0.4f, 0.4f);
+            transform.localScale = new Vector3(0.6f, 0.6f, 0.6f);
         }    
     }
 
     private void SpawnCake()
     {
-        Transform transform = Instantiate(_cake);
-        transform.SetParent(this._frames[_cakeIndex]);
-        transform.position = transform.parent.position;
-        transform.localScale = new Vector3(0.4f, 0.4f, 0.4f);
+        foreach (int cakeIndex in this._cakeIndexs)
+        {
+            Transform transform = Instantiate(_cake);
+            transform.SetParent(this._frames[cakeIndex]);
+            transform.position = transform.parent.position;
+            transform.localScale = new Vector3(0.4f, 0.4f, 0.4f);
+        }
     }
 
     private void SpawnGiftBox()
@@ -251,8 +263,17 @@ public class FrameGrid : SecondMonoBehaviour
         }
         else if (IsHaveCake(this._frames[upIndex].transform))
         {
-            movement.UpPos = this._frames[upIndex].transform;
-            movement.transform.SetParent(this._frames[upIndex].transform);
+            Cake cake = movement.transform.GetComponent<Cake>();
+            if(cake != null)
+            {
+                movement.UpPos = this._frames[currentIndex].transform;
+                movement.transform.SetParent(this._frames[currentIndex].transform);
+            }    
+            else
+            {
+                movement.UpPos = this._frames[upIndex].transform;
+                movement.transform.SetParent(this._frames[upIndex].transform);
+            }    
         }    
         else
         {
@@ -383,13 +404,19 @@ public class FrameGrid : SecondMonoBehaviour
     {
         foreach (Transform frame in this._frames)
         {
-            Cake cakeCtrl = frame.GetComponentInChildren<Cake>();
+            Cake cake = frame.GetComponentInChildren<Cake>();
             GiftBox giftBox = frame.GetComponentInChildren<GiftBox>();
-            if (cakeCtrl && giftBox)
+            if (cake && giftBox)
+            {
+                this.cakeCount++;
+                cake.transform.SetParent(this._holder.transform);
+                cake.gameObject.SetActive(false);
+            }
+            if (cakeCount == _cakeIndexs.Count)
             {
                 TimeCount.Instance.IsWin = true;
                 UICompleted.Instance.Open();
-            }
+            }    
         }
         return false;
     }

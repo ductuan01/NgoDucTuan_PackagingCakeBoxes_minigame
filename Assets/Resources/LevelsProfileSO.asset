@@ -18,70 +18,70 @@ MonoBehaviour:
     cellSize: {x: 60, y: 60}
     rows: 3
     columns: 3
-    candysIndex: 
-    cakeIndex: 1
+    candyIndexs: 
+    cakeIndexs: 01000000
     giftBoxIndex: 7
   - levelName: Level_2
     starAmount: 0
     cellSize: {x: 60, y: 60}
     rows: 3
     columns: 3
-    candysIndex: 0200000006000000
-    cakeIndex: 3
+    candyIndexs: 0200000006000000
+    cakeIndexs: 03000000
     giftBoxIndex: 5
   - levelName: Level_3
     starAmount: 0
     cellSize: {x: 60, y: 60}
     rows: 3
     columns: 3
-    candysIndex: 000000000500000006000000
-    cakeIndex: 7
+    candyIndexs: 000000000500000006000000
+    cakeIndexs: 07000000
     giftBoxIndex: 1
   - levelName: Level_4
     starAmount: 0
     cellSize: {x: 60, y: 60}
     rows: 4
     columns: 3
-    candysIndex: 0000000007000000
-    cakeIndex: 6
+    candyIndexs: 0000000007000000
+    cakeIndexs: 06000000
     giftBoxIndex: 8
   - levelName: Level_5
     starAmount: 0
     cellSize: {x: 60, y: 60}
     rows: 4
     columns: 3
-    candysIndex: 040000000800000009000000
-    cakeIndex: 11
+    candyIndexs: 040000000800000009000000
+    cakeIndexs: 0b000000
     giftBoxIndex: 5
   - levelName: Level_6
     starAmount: 0
     cellSize: {x: 60, y: 60}
     rows: 4
     columns: 3
-    candysIndex: 010000000600000008000000
-    cakeIndex: 7
+    candyIndexs: 010000000600000008000000
+    cakeIndexs: 07000000
     giftBoxIndex: 3
   - levelName: Level_7
     starAmount: 0
     cellSize: {x: 60, y: 60}
     rows: 4
     columns: 3
-    candysIndex: 00000000050000000b000000
-    cakeIndex: 10
+    candyIndexs: 00000000050000000b000000
+    cakeIndexs: 0a000000
     giftBoxIndex: 8
   - levelName: Level_8
     starAmount: 0
     cellSize: {x: 60, y: 60}
     rows: 4
     columns: 3
-    candysIndex: 00000000050000000b000000
-    cakeIndex: 10
-    giftBoxIndex: 8
+    candyIndexs: 0100000007000000
+    cakeIndexs: 040000000a000000
+    giftBoxIndex: 2
   - levelName: Level_9
     starAmount: 0
     cellSize: {x: 60, y: 60}
     rows: 4
     columns: 3
-    candysIndex: 00000000050000000b000000
-    cakeIndex: 10
-    giftBoxIndex: 8
+    candyIndexs: 0100000006000000090000000b000000
+    cakeIndexs: 030000000400000005000000
+    giftBoxIndex: 0
